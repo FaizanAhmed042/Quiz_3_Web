@@ -1,0 +1,71 @@
+    body {
+        background-image: url(img2.jpg); /* Replace with your image URL */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .container {
+        background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .row {
+        margin-right: 0; /* Remove right margin to make left and right sides equal */
+    }
+
+    .social-list {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .social-list li {
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .signup-window {
+        display: none;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .btn-primary {
+        background-color: #0073e6;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+#signupBtn{
+    width: 350px;
+    border-radius: 15px;
+}
+#imge{
+    background-image: url(D:/Addition_Semester/WEB/quiz_3_053-18-0016_Faizan_Ahmed/quiz_3/assets/img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 600px;
+}

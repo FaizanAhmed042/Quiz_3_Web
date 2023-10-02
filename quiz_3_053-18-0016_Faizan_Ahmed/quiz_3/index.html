@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Signup</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="D:\Addition_Semester\WEB\quiz_3_053-18-0016_Faizan_Ahmed\quiz_3\assets\styles\style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6" id="imge">
+                <h1 style="color: white; font-family: cursive;"> Pisocial </h1>
+                <div class="social-list" style="text-align: center; margin-top: 200px;">
+                    <button  class="btn" onclick="showSignup('linkedin')" style="margin-top: 10px; width: 300px; border-radius: 15px; border-color: white; color: white; background-color: rgba(23, 176, 247, 0.822);"> 
+                        <img src="D:\Addition_Semester\WEB\quiz_3_053-18-0016_Faizan_Ahmed\quiz_3\assets\img\li.PNG" width="20px;" height="20px" style="margin-right: 10px; border-radius: 30px;"> Sign up with LinkedIn</button><br>
+                    <button  class="btn" onclick="showSignup('twitter')" style="margin-top: 10px; width: 300px; border-radius: 15px; border-color: white; color: white; background-color: rgba(23, 176, 247, 0.822);"">
+                        <img src="D:\Addition_Semester\WEB\quiz_3_053-18-0016_Faizan_Ahmed\quiz_3\assets\img\tw.PNG" width="20px;" height="20px" style="margin-right: 10px; border-radius: 30px;"> Sign up with Twitter</button><br>
+                    <button  class="btn" onclick="showSignup('facebook')" style="margin-top: 10px; width: 300px; border-radius: 15px; border-color: white; color: white; background-color: rgba(23, 176, 247, 0.822);"">
+                        <img src="D:\Addition_Semester\WEB\quiz_3_053-18-0016_Faizan_Ahmed\quiz_3\assets\img\fb.PNG" width="20px;" height="20px" style="margin-right: 10px; border-radius: 30px;"> Sign up with Facebook</button>
+                </div>
+            </div>
+    
+            <div class="col-md-6">
+                <img src="D:\Addition_Semester\WEB\quiz_3_053-18-0016_Faizan_Ahmed\quiz_3\assets\img\imgtop.PNG" width="100px" height="90px" style="margin-left: 260px;">
+                <div id="linkedinSignup" class="signup-window" style="margin-top: 20px;">
+                    <!-- LinkedIn Signup Form -->
+                    <h3 style="text-align: center;">Sign up with LinkedIn</h3>
+                    <h6 style="text-align: center; margin-bottom: 20px;"> Get started absolutely free </h6>
+                    <form id="linkedinForm">
+                        <div class="form-group">
+                            <label for="linkedinEmail">Email</label>
+                            <input type="email" class="form-control" id="linkedinEmail" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="linkedinPassword">Password</label>
+                            <input type="password" class="form-control" id="linkedinPassword" placeholder="Create a password">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Creating an account means you're okay with our Terms Service, Privacy Policy, and default Notification Settings</label>
+                          </div>
+                        <button type="submit" class="btn btn-primary" id="signupBtn">Sign Up</button>
+                    </form>
+                </div>
+
+                <div id="twitterSignup" class="signup-window" style="margin-top: 20px;">
+                    <!-- Twitter Signup Form -->
+                    <h3 style="text-align: center;">Sign up with Twitter</h3>
+                    <h6 style="text-align: center; margin-bottom: 20px;"> Get started absolutely free </h6>
+                    <form id="twitterForm">
+                        <div class="form-group">
+                            <label for="linkedinEmail">Email</label>
+                            <input type="email" class="form-control" id="linkedinEmail" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="linkedinPassword">Password</label>
+                            <input type="password" class="form-control" id="linkedinPassword" placeholder="Create a password">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Creating an account means you're okay with our Terms Service, Privacy Policy, and default Notification Settings</label>
+                          </div>
+                        <button type="submit" class="btn btn-primary" id="signupBtn">Sign Up</button>
+                    </form>
+                </div>
+
+                <div id="facebookSignup" class="signup-window" style="margin-top: 20px;">
+                    <!-- Facebook Signup Form -->
+                    <h3 style="text-align: center;">Sign up with Facebook</h3>
+                    <h6 style="text-align: center; margin-bottom: 20px;"> Get started absolutely free </h6>
+                    <form id="facebookForm">
+                        <div class="form-group">
+                            <label for="linkedinEmail">Email</label>
+                            <input type="email" class="form-control" id="linkedinEmail" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="linkedinPassword">Password</label>
+                            <input type="password" class="form-control" id="linkedinPassword" placeholder="Create a password">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Creating an account means you're okay with our Terms Service, Privacy Policy, and default Notification Settings</label>
+                          </div>
+                        <button type="submit" class="btn btn-primary" id="signupBtn">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="D:\Addition_Semester\WEB\quiz_3_053-18-0016_Faizan_Ahmed\quiz_3\assets\js\index.js"> </script>
+</body>
+</html>
